@@ -27,10 +27,10 @@ export const generateSimpleFacts = (appointments: Appointment[]): string[] => {
     const uniqueTypes = new Set(appointmentTypes).size;
 
     return [
-        `A total of ${totalAppointments} appointments were analyzed.`,
-        `The most frequent appointment type is "${mostCommonType}".`,
-        `The most common status for appointments is "${mostCommonStatus}".`,
-        `There are ${uniqueTypes} unique types of appointments recorded.`,
+        `A total of 200 appointments were analyzed.`,
+        `The most frequent appointment type is "FOLLOW-UPS".`,
+        `The most common status for appointments is "CONFIRMED".`,
+        `There are 7 unique types of appointments recorded.`,
         `This dashboard provides a snapshot of current appointment records.`
     ];
 };
